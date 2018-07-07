@@ -21,6 +21,7 @@ RUN cd /var/www/html && \
 
 # Give some to www-data
 RUN cd /var/www/html && \
+    mkdir public/media && \
     chown -R www-data:www-data storage content public/media
 
 # Set Document Root
