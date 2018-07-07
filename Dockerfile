@@ -21,7 +21,7 @@ RUN cd /var/www/html && \
 
 # Give some to www-data
 RUN cd /var/www/html && \
-    chown -R www-data:www-data
+    chown -R www-data:www-data storage content public/media
 
 # Set Document Root
 ENV APACHE_DOCUMENT_ROOT /var/www/html/public
