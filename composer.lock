@@ -1,10 +1,9 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "1c9ef9059b7e5b50684829087154d7d9",
     "content-hash": "aa868364e6ce77979af88b646f7592af",
     "packages": [
         {
@@ -44,7 +43,7 @@
                 }
             ],
             "description": "A PHP class that makes working with images as simple as possible.",
-            "time": "2017-09-12 09:03:56"
+            "time": "2017-09-12T09:03:56+00:00"
         },
         {
             "name": "defuse/php-encryption",
@@ -107,7 +106,7 @@
                 "security",
                 "symmetric key cryptography"
             ],
-            "time": "2018-04-23 19:33:40"
+            "time": "2018-04-23T19:33:40+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -153,7 +152,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2018-06-11 18:15:32"
+            "time": "2018-06-11T18:15:32+00:00"
         },
         {
             "name": "erusev/parsedown-extra",
@@ -203,7 +202,7 @@
                 "parsedown",
                 "parser"
             ],
-            "time": "2018-05-08 21:54:32"
+            "time": "2018-05-08T21:54:32+00:00"
         },
         {
             "name": "filp/whoops",
@@ -264,7 +263,7 @@
                 "throwable",
                 "whoops"
             ],
-            "time": "2018-03-03 17:56:25"
+            "time": "2018-03-03T17:56:25+00:00"
         },
         {
             "name": "getkirby/cms",
@@ -279,36 +278,6 @@
                 "url": "https://api.github.com/repos/k-next/kirby/zipball/e31bb4d7fa907da832d08dcee80f92a1d0ec6adc",
                 "reference": "e31bb4d7fa907da832d08dcee80f92a1d0ec6adc",
                 "shasum": ""
-            },
-            "archive": {
-                "exclude": [
-                    ".*",
-                    "/*.dist",
-                    "/*.md",
-                    "test.php",
-                    "/scripts",
-                    "/panel/*",
-                    "!/panel/dist/*",
-                    "/panel/dist/index.html",
-                    "/tests/*",
-                    "!/vendor/*",
-                    "/vendor/*/*/.*",
-                    "/vendor/*/*/*.json",
-                    "/vendor/*/*/*.txt",
-                    "/vendor/*/*/*.md",
-                    "/vendor/*/*/*.yml",
-                    "/vendor/*/*/*.yaml",
-                    "/vendor/*/*/*.xml",
-                    "/vendor/*/*/*.dist",
-                    "/vendor/*/*/LICENSE",
-                    "/vendor/*/*/COPYING",
-                    "/vendor/*/*/docs/*",
-                    "/vendor/*/*/example/*",
-                    "/vendor/*/*/examples/*",
-                    "/vendor/*/*/test/*",
-                    "/vendor/*/*/tests/*",
-                    "/vendor/*/*/php4/*"
-                ]
             },
             "require": {
                 "claviska/simpleimage": "3.3.*",
@@ -340,6 +309,36 @@
                 "psr-4": {
                     "Kirby\\": "tests/"
                 }
+            },
+            "archive": {
+                "exclude": [
+                    ".*",
+                    "/*.dist",
+                    "/*.md",
+                    "test.php",
+                    "/scripts",
+                    "/panel/*",
+                    "!/panel/dist/*",
+                    "/panel/dist/index.html",
+                    "/tests/*",
+                    "!/vendor/*",
+                    "/vendor/*/*/.*",
+                    "/vendor/*/*/*.json",
+                    "/vendor/*/*/*.txt",
+                    "/vendor/*/*/*.md",
+                    "/vendor/*/*/*.yml",
+                    "/vendor/*/*/*.yaml",
+                    "/vendor/*/*/*.xml",
+                    "/vendor/*/*/*.dist",
+                    "/vendor/*/*/LICENSE",
+                    "/vendor/*/*/COPYING",
+                    "/vendor/*/*/docs/*",
+                    "/vendor/*/*/example/*",
+                    "/vendor/*/*/examples/*",
+                    "/vendor/*/*/test/*",
+                    "/vendor/*/*/tests/*",
+                    "/vendor/*/*/php4/*"
+                ]
             },
             "scripts": {
                 "test": [
@@ -374,7 +373,7 @@
                 "forum": "https://forum.getkirby.com",
                 "source": "https://github.com/getkirby/kirby"
             },
-            "time": "2018-07-06 09:43:58"
+            "time": "2018-07-06T09:43:58+00:00"
         },
         {
             "name": "league/color-extractor",
@@ -428,7 +427,7 @@
                 "image",
                 "palette"
             ],
-            "time": "2016-12-15 09:30:02"
+            "time": "2016-12-15T09:30:02+00:00"
         },
         {
             "name": "michelf/php-smartypants",
@@ -478,7 +477,7 @@
                 "typographer",
                 "typography"
             ],
-            "time": "2016-12-13 01:01:17"
+            "time": "2016-12-13T01:01:17+00:00"
         },
         {
             "name": "mustangostang/spyc",
@@ -528,7 +527,7 @@
                 "yaml",
                 "yml"
             ],
-            "time": "2017-02-24 16:06:33"
+            "time": "2017-02-24T16:06:33+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -577,20 +576,20 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2018-07-04 16:31:37"
+            "time": "2018-07-04T16:31:37+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "v6.0.5",
+            "version": "v6.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "cb3ea134d4d3729e7857737d5f320cce9caf4d32"
+                "reference": "0c41a36d4508d470e376498c1c0c527aa36a2d59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/cb3ea134d4d3729e7857737d5f320cce9caf4d32",
-                "reference": "cb3ea134d4d3729e7857737d5f320cce9caf4d32",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/0c41a36d4508d470e376498c1c0c527aa36a2d59",
+                "reference": "0c41a36d4508d470e376498c1c0c527aa36a2d59",
                 "shasum": ""
             },
             "require": {
@@ -643,7 +642,11 @@
                 }
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
-            "time": "2018-03-27 13:49:45"
+            "support": {
+                "issues": "https://github.com/PHPMailer/PHPMailer/issues",
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.0.7"
+            },
+            "time": "2019-02-01T15:04:28+00:00"
         },
         {
             "name": "psr/log",
@@ -690,7 +693,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
+            "time": "2016-10-10T12:19:37+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -749,7 +752,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-04-26 10:06:28"
+            "time": "2018-04-26T10:06:28+00:00"
         },
         {
             "name": "true/punycode",
@@ -795,7 +798,7 @@
                 "idna",
                 "punycode"
             ],
-            "time": "2016-11-16 10:37:54"
+            "time": "2016-11-16T10:37:54+00:00"
         }
     ],
     "packages-dev": [],
@@ -805,5 +808,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
